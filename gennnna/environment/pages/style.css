@@ -1,0 +1,89 @@
+            html{
+                scroll-behavior:smooth;
+            }
+            body{
+                background-color:#f9d5bb;
+                font-family:menlo;
+                color:#3c3d47;
+                font-family:'Bebas Neue', cursive;
+                font-size:22px;
+                padding:.01px;
+            }
+            aboutbutton{
+                background-color:#f9d5bb;
+                border:none;
+                cursor:pointer;
+                color:#3c3d47;
+                font-size:35px;
+                padding:25px;
+                border-radius:5px;
+            }
+            aboutbutton:hover{
+                cursor:pointer;
+            }
+            button{
+                background-color:#f9d5bb;
+                border:none;
+                color:#3c3d47;
+                font-size:20px;
+                opacity:.5;
+                padding:15px;
+                border-radius:5px;
+            }
+            button:hover{
+                box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                opacity:1;
+                cursor:pointer;
+            }
+            /*linkbutton{*/
+            /*    height:1px;*/
+            /*    width:1px;*/
+            /*    opacity:.5;*/
+            /*    padding:10px;*/
+            /*    border-radius:5px;*/
+            /*}*/
+            /*linkbutton:hover{*/
+            /*    opacity:1;*/
+            /*    cursor:pointer;*/
+            /*}*/
+            .container{
+                position:relative;
+                width:20%;
+            }
+            .container img {
+                width:100%;
+                height:330px;
+                /*max-width:400px;*/
+            }
+            .container .btn{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                -ms-transform:translate(-50%,-50%);
+                background-color:#f9d5bb;
+                color:#3c3d47;
+                font-size:16px;
+                padding:12px 24px;
+                border:none;
+                cursor:pointer;
+                border-radius:5px;
+                opacity:70%;
+                font-family:'Bebas Neue', cursive;
+                font-size:35px;
+            }
+            .container .btn:hover{
+                opacity:100%;
+                cursor:pointer;
+            }
+/*            imgfloats{
+                float:right;
+            }*/
+            a{
+                color:#3c3d47;
+                padding:5px;
+            }
+            img{
+                box-shadow:7px 7px #F9B27E;
+            }
+            
